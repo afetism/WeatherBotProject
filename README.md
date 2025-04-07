@@ -45,6 +45,7 @@ Bu layihə Telegram bot vasitəsilə istifadəçilərə seçilmiş şəhər üzr
 
 ```bash
 git clone https://github.com/afetism/WeatherBotProject.git
-cd telegram-weather-bot
+cd WeatherBotProject
+
 
 
