@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherBot.API", "WeatherBot.API\WeatherBot.API.csproj", "{078160FB-B9B6-4C29-9245-0A1CCE50DC61}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeatherBot.API", "WeatherBot.API\WeatherBot.API.csproj", "{078160FB-B9B6-4C29-9245-0A1CCE50DC61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherBot.Application", "WeatherBot.Application\WeatherBot.Application.csproj", "{07DEEE60-DBB1-4F32-A757-3FD70B9EFC15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherBot.Infrastructure", "WeatherBot.Infrastructure\WeatherBot.Infrastructure.csproj", "{1529BD51-A3FA-4D41-A2F7-C13433C6809B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherBot.Domain", "WeatherBot.Domain\WeatherBot.Domain.csproj", "{7118A545-8170-433F-9765-067735953D25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherBot.BotWorker", "WeatherBot.BotWorker\WeatherBot.BotWorker.csproj", "{51A80841-E430-42B0-9814-83BC964D1D10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherBot.Tests", "WeatherBot.Tests\WeatherBot.Tests.csproj", "{38843FF9-8A10-4D01-8E4B-8DADAE63E4BB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +25,26 @@ Global
 		{078160FB-B9B6-4C29-9245-0A1CCE50DC61}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{078160FB-B9B6-4C29-9245-0A1CCE50DC61}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{078160FB-B9B6-4C29-9245-0A1CCE50DC61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07DEEE60-DBB1-4F32-A757-3FD70B9EFC15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07DEEE60-DBB1-4F32-A757-3FD70B9EFC15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07DEEE60-DBB1-4F32-A757-3FD70B9EFC15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07DEEE60-DBB1-4F32-A757-3FD70B9EFC15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1529BD51-A3FA-4D41-A2F7-C13433C6809B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1529BD51-A3FA-4D41-A2F7-C13433C6809B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1529BD51-A3FA-4D41-A2F7-C13433C6809B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1529BD51-A3FA-4D41-A2F7-C13433C6809B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7118A545-8170-433F-9765-067735953D25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7118A545-8170-433F-9765-067735953D25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7118A545-8170-433F-9765-067735953D25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7118A545-8170-433F-9765-067735953D25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51A80841-E430-42B0-9814-83BC964D1D10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51A80841-E430-42B0-9814-83BC964D1D10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51A80841-E430-42B0-9814-83BC964D1D10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51A80841-E430-42B0-9814-83BC964D1D10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38843FF9-8A10-4D01-8E4B-8DADAE63E4BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38843FF9-8A10-4D01-8E4B-8DADAE63E4BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38843FF9-8A10-4D01-8E4B-8DADAE63E4BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38843FF9-8A10-4D01-8E4B-8DADAE63E4BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
